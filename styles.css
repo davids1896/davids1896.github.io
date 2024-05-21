@@ -22,32 +22,6 @@ body * {
   }
   
   /*Containers*/
-
-.responsive-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; /* Ensures even spacing around images */
-}
-
-.responsive {
-  width: 100%;  /* Full width of the container but can be adjusted to fit design */
-  max-width: 230px; /* Maximum width to match the largest original width */
-  height: auto; /* Scales height automatically to maintain aspect ratio */
-}
-
-.scrollable-content {
-  height: 170px;
-  width: 100%; /* Responsive width */
-  max-width: 700px; /* Max width to maintain design integrity on larger screens */
-  overflow: auto; /* Keeps the scrolling functionality */
-}
-
-/* Media Queries for smaller devices */
-@media (max-width: 700px) {
-  .scrollable-content {
-    max-width: 100%; /* Allows the content to fit smaller screens */
-  }
-}
   
   .image-section {
     height: 100vh;
