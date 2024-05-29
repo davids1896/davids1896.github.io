@@ -109,6 +109,10 @@ body * {
     bottom: 0;
     left: 0;
   }
+
+    .w3-light-red {
+        background-color: #ffcccc; /* 淡红色 */
+    }
   
   /*Media queries*/
   @media screen and (max-width: 1200px) {
