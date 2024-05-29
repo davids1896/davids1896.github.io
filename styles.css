@@ -22,19 +22,6 @@ body * {
   }
   
   /*Containers*/
-
-  .image-container {
-      display: flex; /* 启用flex布局 */
-      justify-content: space-around; /* 图片之间平均分配空间 */
-      align-items: center; /* 垂直居中对齐 */
-      width: 100%; /* 容器宽度为100% */
-    }
-    
-  .responsive-image {
-      max-width: 100%; /* 最大宽度不超过容器宽度 */
-      height: auto; /* 高度自动调整以保持图像纵横比 */
-      flex: 1; /* 每张图片占据等分的空间 */
-    }
   
   .image-section {
     height: 100vh;
