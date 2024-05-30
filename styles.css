@@ -22,6 +22,19 @@ body * {
   }
   
   /*Containers*/
+
+.image-container.responsive-images {
+    display: flex;  /* 使用flex布局，使图片并排显示 */
+    justify-content: space-around;  /* 图片之间有间隔 */
+    align-items: center;  /* 垂直居中对齐 */
+}
+
+.image-container.responsive-images img {
+    width: 100%;  /* 图片宽度自适应占满容器宽度 */
+    height: auto;  /* 高度自动调整 */
+    max-width: 230px;  /* 最大宽度限制，可根据实际情况调整 */
+    margin: 10px;  /* 添加边距，使图片不会紧贴在一起 */
+}
   
   .image-section {
     height: 100vh;
