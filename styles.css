@@ -25,7 +25,7 @@ body * {
 
 .image-container {
     display: flex;  /* 使用flex布局，使得图片并排显示 */
-    justify-content: space-around;  /* 图片之间有适当间隔 */
+/*     justify-content: space-around;  /* 图片之间有适当间隔 */ */
     align-items: center;  /* 图片垂直居中 */
 }
 
@@ -33,7 +33,7 @@ body * {
     height: 170px;  /* 固定图片高度 */
     width: auto;  /* 宽度自动调整，保持图片的宽高比 */
     max-width: 100%;  /* 确保图片不会超出其容器宽度 */
-    margin: 10px;  /* 图片之间的间隔 */
+/*     margin: 10px;  /* 图片之间的间隔 */ */
 }
   
   .image-section {
