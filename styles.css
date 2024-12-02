@@ -107,6 +107,10 @@ body * {
     margin-top: 64px;
   }
   
+  .w3-margin-top-3-percent {
+    margin-top: 3%;
+  }
+
   .w3-margin-top-20-percent {
     margin-top: 20%;
   }
